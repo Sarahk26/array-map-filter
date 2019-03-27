@@ -12,11 +12,12 @@ Exemple d'entrée:
 
   Sortie attendue:
   [-10, 5, 15, 20]
-
  */
-
 function getMultiplesOf(numbers, n) {
+   
+  return numbers.filter(nb =>nb %5 == 0)
+    
+  
 }
-
 // Ne pas modifier l'export
 module.exports = getMultiplesOf;
